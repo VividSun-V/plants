@@ -250,6 +250,7 @@ select {
 .service__inner {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 55px 116px;
 }
 
@@ -708,10 +709,6 @@ select {
 }
 
 @media (max-width: 1200px) {
-  .service__inner {
-    justify-content: center;
-  }
-
   .contacts {
     padding-top: 34px;
   }
