@@ -606,7 +606,7 @@ select {
   padding: 12px 33px 32px;
   border: 1px solid black;
   border-radius: 20px;
-  margin: 47px 0 14px;
+  margin: 18px 0 14px;
   text-align: center;
 }
 
@@ -725,7 +725,7 @@ select {
   }
 
   .contacts__menu-open {
-    margin: 61px 0 14px;
+    margin: 18px 0 14px;
   }
 
   .contacts__inner {
@@ -833,8 +833,8 @@ select {
     margin-bottom: 20px;
   }
 
-  .prices {
-    padding: 40px 0 90px;
+  .prices__title {
+    margin-bottom: 10px;
   }
 
   .prices-us__title {
@@ -856,7 +856,6 @@ select {
 @media (max-width: 768px) {
   .container {
     max-width: 688px;
-    padding: 0 0;
   }
 
   .header {
@@ -1059,6 +1058,10 @@ select {
   .prices__title {
     text-align: center;
     padding-left: 0;
+  }
+
+  .prices__rates-list {
+    position: relative;
   }
 
   .prices__rates {
@@ -1294,6 +1297,7 @@ select {
   }
 
   .prices__rates-list {
+    margin: auto;
     max-width: 224px;
     padding: 29px 22px;
   }
